@@ -1,0 +1,80 @@
+.mainBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: lightgray;
+    width: 250px;
+    height: 350px;
+    border: thick solid black;
+    border-radius: 10px;
+}
+
+.footer{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: thin solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.displayDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 360px;
+    height: 50px;
+    margin: 20px 20px 0px 20px;}
+
+.previousNum {
+    width: 100%;
+    height: 10px;
+}
+
+.buttons {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+
+button{
+    width: 40px;
+    height: 40px;
+    /*color: purple;
+    border-color: purple;
+    background-color: white;
+    */
+}
+
+.numberButtons {
+    color: purple;
+    border-color: purple;
+    background-color: white;
+}
+
+
+.biggerButtons{
+    width: 95px;
+}
+
+.backspaceImage{
+    width: 20px;
+    height: 20px;
+}
